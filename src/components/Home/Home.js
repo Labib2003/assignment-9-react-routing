@@ -1,6 +1,10 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Review from '../Review/Review';
 
 const Home = () => {
+    const [reviews] = useReviews();
+    const firstThree = reviews.slice(0, 3);
     return (
         <div className='w-3/4 mx-auto'>
             <div className='grid grid-cols-5 gap-20 my-10'>
@@ -11,6 +15,15 @@ const Home = () => {
                 <div className='col-span-2 m-auto'>
                     <img src="https://m.media-amazon.com/images/I/31Y4WCsV6DL._AC_SY450_.jpg" alt="" />
                 </div>
+            </div>
+            <div className='my-5'>
+                <p className='text-3xl font-bold my-5'>Customer reviews: {firstThree.length}</p>
+                {
+                    firstThree.map(review => <Review
+                        key={review.id}
+                        review={review}
+                    ></Review>)
+                }
             </div>
         </div>
     );
