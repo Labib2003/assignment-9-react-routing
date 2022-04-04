@@ -13,7 +13,7 @@ const Review = (props) => {
             <div className='text-left w-2/3 ml-5 my-auto'>
                 <h1 className='text-3xl text-gray-800 font-semibold'>Rating: <span className='text-lime-600'>{rating}</span></h1>
                 <p className='text-xl text-gray-700 leading-relaxed my-3'>{reviewText}</p>
-                <p className='text-gray-600'>-{name}</p>
+                <p className='text-xl text-gray-600'>-{name}</p>
             </div>
         </div>
     );
