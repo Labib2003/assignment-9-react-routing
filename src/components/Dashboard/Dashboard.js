@@ -11,10 +11,10 @@ const Dashboard = () => {
     return (
         <div>
             <h1 className='text-3xl font-semibold my-5'>Charts made from provided data using recharts</h1>
-            <div className='w-3/4 mx-auto flex justify-around'>
+            <div className='w-full md:w-3/4 mx-auto md:flex justify-around'>
                 <BarChart
-                    width={500}
-                    height={300}
+                    width={350}
+                    height={200}
                     data={data}
                     margin={{
                         top: 5,
@@ -32,8 +32,8 @@ const Dashboard = () => {
                     <Bar dataKey="sell" fill="#82ca9d" />
                 </BarChart>
                 <LineChart
-                    width={500}
-                    height={300}
+                    width={350}
+                    height={200}
                     data={data}
                     margin={{
                         top: 5,

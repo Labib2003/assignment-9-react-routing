@@ -3,10 +3,10 @@ import React from 'react';
 const Review = (props) => {
     const {img, name, rating, reviewText} = props.review;
     return (
-        <div className='w-3/4 mx-auto flex justify-around border-2 border-lime-600 rounded-md p-3 mb-3'>
+        <div className='w-3/4 mx-auto lg:flex justify-around border-2 border-lime-600 rounded-md p-3 mb-3'>
             <div>
                 <img 
-                className='w-52 rounded-full'
+                className='w-52 rounded-full mx-auto'
                 src={img} 
                 alt="img" />
             </div>
