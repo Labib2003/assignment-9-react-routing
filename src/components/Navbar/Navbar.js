@@ -1,9 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div>
-            <p className='text-5xl'>This is nav</p>
+        <div className='bg-lime-600 mb-5'>
+            <nav className='w-3/4 mx-auto flex justify-around text-xl text-white p-3'>
+                <Link 
+                className='hover:text-blue-200'
+                to='/home'>Home</Link>
+                <Link 
+                className='hover:text-blue-200'
+                to='/reviews'
+                >Reviews</Link>
+                <Link
+                className='hover:text-blue-200'
+                to='/dashboard'
+                >Dashboard</Link>
+                <p>Blogs</p>
+            </nav>
         </div>
     );
 };

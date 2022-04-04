@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "S1mple",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=132%2C4%2C459%2C459&w=800&s=81da5699a06ed35ba865f7b628f99458",
+        "reviewText": "Really good for a product from the 90s. The sensivity is good, all 5 programmable buttons are clicky and resposive. The grip is not the best but not bad either. But the trackball makes the mouse really heavy and not very usable in competitve situations.",
+        "rating": "3/5"
+    },
+    {
+        "id": 2,
+        "name": "f0rest",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/syd1Gs0h76WSpEmdC_OpBD.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=140%2C8%2C447%2C447&w=800&s=da4930155b9a74c54b6d76ff6d4bc710",
+        "reviewText": "As an old veteran of competitve gaming this mouse will always have a special place in my heart. Overall the mouse is great, but the trackball makes the mouse unuseable in seious competitve situations. But for casual use or as a nostalgia thing, its awesome.",
+        "rating": "4/5"
+    },
+    {
+        "id": 3,
+        "name": "twistz",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/bqU4MKp5dg2NKjboZXmWI4.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C16%2C482%2C482&w=800&s=7c5b45c5dc01ba9b93dcad3db5000904",
+        "reviewText": "I have a really unusual mouse grip and I have to say, the shape of this mouse fits my grip unlike any modern mouse. Now that I have used this mouse, I really hope Razer releases a modern optical verson of this mouse.",
+        "rating": "4.5/5"
+    },
+    {
+        "id": 4,
+        "name": "b1t",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/g-2t7HQ_d55I6VhRnP2URl.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=132%2C8%2C455%2C455&w=800&s=325499a75c3026c65768e55e61e950b2",
+        "reviewText": "I really tried to like this mouse but I never used a trackball mouse before and I think the technoligy is gone for good. No hate towards the mouse though, its a solid mouse. But the trackball is really not my cup of tea.",
+        "rating": "2/5"
+    },
+    {
+        "id": 5,
+        "name": "scream",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/N1faCY2NjTEOOAs5swFC-w.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C12%2C482%2C482&w=800&s=c30a123cc04a386e20a1e8daf7fd02ca",
+        "reviewText": "I mean, for a product form the late 90s, its awesome. But its not a good fit for modern games. The trackball slides the mouse a lot and its really hard to land precise shots. You aleays have to put some serious force to stop the mouse because of the trackball.",
+        "rating": "3/5"
+    },
+    {
+        "id": 6,
+        "name": "get-right",
+        "img": "https://img-cdn.hltv.org/playerbodyshot/tOUnhieNSc0wvyCqMRVoZ1.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=152%2C4%2C401%2C401&w=800&s=5a0054620e39a94430c9bab02736db68",
+        "reviewText": "I retired from competitve play so I actually find this mouse a really fun toy to play with. The trackball adds a new level of challange when playing shooter games and I rally like the heavy feel of the mouse",
+        "rating": "4.5/5"
+    }
+]
