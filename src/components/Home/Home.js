@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 
@@ -25,6 +26,10 @@ const Home = () => {
                     ></Review>)
                 }
             </div>
+            <Link
+                className='text-xl text-white bg-lime-600 p-3 rounded-md hover:bg-lime-500 hover:text-black'
+                to='/reviews'>See all reviews</Link>
+            <p className='mt-10'></p>
         </div>
     );
 };

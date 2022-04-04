@@ -16,7 +16,7 @@ const Navbar = () => {
                 className='hover:text-blue-200'
                 to='/dashboard'
                 >Dashboard</Link>
-                <p>Blogs</p>
+                <Link to='/blogs'>Blogs</Link>
             </nav>
         </div>
     );
